@@ -13,3 +13,6 @@
 
 去噪实验效果：  
 ![the result of experiment](https://github.com/JackFrost168/Denoising-Autoencoder/blob/master/Autoencoder.jpg)
+
+误差曲线图：  
+![loss](https://github.com/JackFrost168/Denoising-Autoencoder/blob/master/error.jpg)
