@@ -11,4 +11,5 @@
 	
 ![autoencoder structure](https://github.com/JackFrost168/Denoising-Autoencoder/blob/master/cae.jpg)
 
-去噪实验效果：
+去噪实验效果：  
+![the result of experiment](https://github.com/JackFrost168/Denoising-Autoencoder/blob/master/Autoencoder.jpg)
