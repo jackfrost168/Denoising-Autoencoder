@@ -56,6 +56,7 @@ epochs = 10
 batch_size = 128
 sess.run(tf.global_variables_initializer()) #初始化模型参数
 #https://blog.csdn.net/u012436149/article/details/78291545
+#=======train=============
 i=0
 for e in range(epochs):
     for idx in range(mnist.train.num_examples // batch_size):
@@ -75,6 +76,7 @@ for e in range(epochs):
         i=i+1
 plt.show()
 
+#======test===============
 fig, axes = plt.subplots(nrows=3, ncols=10, sharex=True, sharey=True, figsize=(20,4))
 #fig整个图，axes坐标轴和绘制的图
 in_imgs = mnist.test.images[10:20]
