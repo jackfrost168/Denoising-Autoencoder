@@ -96,5 +96,5 @@ plt.draw()
 print(i)
 plt.waitforbuttonpress()
 fig.tight_layout(pad=0.1)
-#sess.close()
+sess.close()
 
